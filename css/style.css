@@ -11,7 +11,9 @@ header{
 	background: #fff;
 }
 
-
+a{
+	text-decoration: none;
+}
 
 header .content .logo{
 	float: left;
@@ -32,6 +34,34 @@ header .content nav ul li{
 	padding: 7px;
 }
 
+footer{
+	clear: both;
+	background-color: #343434;
+	overflow: auto;
+}
+footer .foot-item{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 300px;
+	/*padding: 7px;*/
+	margin: 7px auto;
+	color: #202020;
+	border-right: solid 2px #fff;
+}
+footer .foot-item iframe{
+	width: 280px;
+	height: 220px;
+}
+footer .foot-item h3{
+	color: #fff;
+}
+footer .foot-item .social{
+	display: block;
+	margin: 3px auto;
+}
+footer .foot-item .social .social-item{
+	display: inline-block;
+}
 li{
 	list-style-type: none;
 }
