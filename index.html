@@ -7,6 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">	
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+
+	/* prepend menu icon */
+	$('#nav-wrap').prepend('<div id="menu-icon">Menu</div>');
+	
+	/* toggle nav */
+	$("#menu-icon").on("click", function(){
+		$("#nav").slideToggle();
+		$(this).toggleClass("active");
+	});
+
+});
+</script>
+
 </head>
 <body>
 	<header>
@@ -17,17 +35,22 @@
 					IMIX-MX
 				</h1>
 			</figure>
-			<nav>
-				<ul>
+        
+			<nav id="nav-wrap">
+
+				<ul id="nav">
 					<li><a href="">Servicios</a></li>
-					<li><a href="">Proyectos</a></li>
-					<li><a href="">Quienes Somos</a></li>
-					<li><a href="">Noticias</a></li>
-					<li><a href="">Contacto</a></li>
+					<li><a href="#">Proyectos</a></li>
+					<li><a href="#">Quienes Somos</a></li>
+					<li><a href="#">Noticias</a></li>
+					<li><a href="#">Contacto</a></li>
 				</ul>
 			</nav>
+
+
 		</div>
 	</header>
+
 	<section class="feeling">
 		<video autoplay loop poster="polina.jpg" id="bgvid">
 			<source src="polina.webm" type="video/webm">
@@ -150,7 +173,7 @@
 				</ul>
 			</div>
 			<div class="foot-item">
-				<h3>Menu</h3>
+				<!--<h3>Menu</h3>-->
 				<ul>
 					<li><a href="">Servicios</a></li>
 					<li><a href="">Proyectos</a></li>
