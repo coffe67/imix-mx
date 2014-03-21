@@ -10,20 +10,6 @@
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
-<script type="text/javascript">
-jQuery(document).ready(function($){
-
-	/* prepend menu icon */
-	$('#nav-wrap').prepend('<div id="menu-icon">Menu</div>');
-	
-	/* toggle nav */
-	$("#menu-icon").on("click", function(){
-		$("#nav").slideToggle();
-		$(this).toggleClass("active");
-	});
-
-});
-</script>
 
 </head>
 <body>
@@ -36,10 +22,10 @@ jQuery(document).ready(function($){
 				</h1>
 			</figure>
         
-			<nav id="nav-wrap">
-
-				<ul id="nav">
-					<li><a href="">Servicios</a></li>
+			<nav >
+				<a href="#" id="menu-icon"><span class="icon-cog"></span></a>
+				<ul >
+					<li><a href="#">Servicios</a></li>
 					<li><a href="#">Proyectos</a></li>
 					<li><a href="#">Quienes Somos</a></li>
 					<li><a href="#">Noticias</a></li>
