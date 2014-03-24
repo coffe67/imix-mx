@@ -430,7 +430,7 @@ video#bgvid {
 	font-weight: 300;
 	padding-bottom: 14px;
 	color: #acacac;
-	text-transform: uppercase;
+	text-transform: uppercase;   
 }
 .main-message{
 	/*display: inline-block;*/
