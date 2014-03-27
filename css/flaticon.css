@@ -1,0 +1,426 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "FontMfizz";
+  src: url("../fonts/font-mfizz.eot");
+  src: url("../fonts/font-mfizz.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font-mfizz.woff") format("woff"),
+       url("../fonts/font-mfizz.ttf") format("truetype"),
+       url("../fonts/font-mfizz.svg#font-mfizz") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+    /*font-size: 20px;*/
+	font-style: normal;
+	speak: none;
+	/*margin-left: 20px;*/
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="iconrs-"], [class*=" iconrs-"] {
+	font-family: 'FontMfizz';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconrs-cplusplus:before { content: "\f101"; }
+.iconrs-python:before { content: "\f109"; }
+.iconrs-java:before { content: "\f10a"; }
+.iconrs-debian:before { content: "\f10c"; }
+.iconrs-grails:before { content: "\f10d"; }
+.iconrs-c:before { content: "\f10e"; }
+.iconrs-nginx:before { content: "\f112"; }
+.iconrs-ruby-on-rails:before { content: "\f113"; }
+.iconrs-javascript:before { content: "\f148"; }
+.iconrs-database:before { content: "\f124"; }
+.iconrs-mysql:before { content: "\f118"; }
+.iconrs-php:before { content: "\f135"; }
+
+
+.flaticon-android3:before {
+	content: "\e000";
+}
+.flaticon-apple:before {
+	content: "\e001";
+}
+.flaticon-apple19:before {
+	content: "\e002";
+}
+.flaticon-apple4:before {
+	content: "\e003";
+}
+.flaticon-auricular6:before {
+	content: "\e004";
+}
+.flaticon-blog:before {
+	content: "\e005";
+}
+.flaticon-blogging:before {
+	content: "\e006";
+}
+.flaticon-briefcase23:before {
+	content: "\e007";
+}
+.flaticon-cellphone5:before {
+	content: "\e008";
+}
+.flaticon-chain1:before {
+	content: "\e009";
+}
+.flaticon-chemistry7:before {
+	content: "\e00a";
+}
+.flaticon-cloud127:before {
+	content: "\e00b";
+}
+.flaticon-clouds11:before {
+	content: "\e00c";
+}
+.flaticon-code9:before {
+	content: "\e00d";
+}
+.flaticon-coding:before {
+	content: "\e00e";
+}
+.flaticon-cogwheel9:before {
+	content: "\e00f";
+}
+.flaticon-compass47:before {
+	content: "\e010";
+}
+.flaticon-computer73:before {
+	content: "\e011";
+}
+.flaticon-credit22:before {
+	content: "\e012";
+}
+.flaticon-css1:before {
+	content: "\e013";
+}
+.flaticon-custom:before {
+	content: "\e014";
+}
+.flaticon-custom2:before {
+	content: "\e015";
+}
+.flaticon-data58:before {
+	content: "\e016";
+}
+.flaticon-database13:before {
+	content: "\e017";
+}
+.flaticon-database7:before {
+	content: "\e018";
+}
+.flaticon-design:before {
+	content: "\e019";
+}
+.flaticon-drupal:before {
+	content: "\e01a";
+}
+.flaticon-earth16:before {
+	content: "\e01b";
+}
+.flaticon-education20:before {
+	content: "\e01c";
+}
+.flaticon-evernote2:before {
+	content: "\e01d";
+}
+.flaticon-facebok:before {
+	content: "\e01e";
+}
+.flaticon-facebook24:before {
+	content: "\e01f";
+}
+.flaticon-flag32:before {
+	content: "\e020";
+}
+.flaticon-four30:before {
+	content: "\e021";
+}
+.flaticon-github5:before {
+	content: "\e022";
+}
+.flaticon-github7:before {
+	content: "\e023";
+}
+.flaticon-globe15:before {
+	content: "\e024";
+}
+.flaticon-google20:before {
+	content: "\e025";
+}
+.flaticon-google21:before {
+	content: "\e026";
+}
+.flaticon-grocery11:before {
+	content: "\e027";
+}
+.flaticon-hammer11:before {
+	content: "\e028";
+}
+.flaticon-html-tag:before {
+	content: "\e029";
+}
+.flaticon-html17:before {
+	content: "\e02a";
+}
+.flaticon-html2:before {
+	content: "\e02b";
+}
+.flaticon-html3:before {
+	content: "\e02c";
+}
+.flaticon-instagram2:before {
+	content: "\e02d";
+}
+.flaticon-joomla1:before {
+	content: "\e02e";
+}
+.flaticon-justify7:before {
+	content: "\e02f";
+}
+.flaticon-keyboard12:before {
+	content: "\e030";
+}
+.flaticon-laptop72:before {
+	content: "\e031";
+}
+.flaticon-layers2:before {
+	content: "\e032";
+}
+.flaticon-light75:before {
+	content: "\e033";
+}
+.flaticon-lightbulb20:before {
+	content: "\e034";
+}
+.flaticon-lightbulb23:before {
+	content: "\e035";
+}
+.flaticon-line23:before {
+	content: "\e036";
+}
+.flaticon-link3:before {
+	content: "\e037";
+}
+.flaticon-linked2:before {
+	content: "\e038";
+}
+.flaticon-linux5:before {
+	content: "\e039";
+}
+.flaticon-listing1:before {
+	content: "\e03a";
+}
+.flaticon-mail22:before {
+	content: "\e03b";
+}
+.flaticon-mail24:before {
+	content: "\e03c";
+}
+.flaticon-map23:before {
+	content: "\e03d";
+}
+.flaticon-map35:before {
+	content: "\e03e";
+}
+.flaticon-map43:before {
+	content: "\e03f";
+}
+.flaticon-map49:before {
+	content: "\e040";
+}
+.flaticon-map50:before {
+	content: "\e041";
+}
+.flaticon-map54:before {
+	content: "\e042";
+}
+.flaticon-mobile15:before {
+	content: "\e043";
+}
+.flaticon-mobile26:before {
+	content: "\e044";
+}
+.flaticon-monitor53:before {
+	content: "\e045";
+}
+.flaticon-new:before {
+	content: "\e046";
+}
+.flaticon-notebook1:before {
+	content: "\e047";
+}
+.flaticon-online:before {
+	content: "\e048";
+}
+.flaticon-paypal4:before {
+	content: "\e049";
+}
+.flaticon-paypal5:before {
+	content: "\e04a";
+}
+.flaticon-personal5:before {
+	content: "\e04b";
+}
+.flaticon-phone72:before {
+	content: "\e04c";
+}
+.flaticon-pie27:before {
+	content: "\e04d";
+}
+.flaticon-pin10:before {
+	content: "\e04e";
+}
+.flaticon-pin6:before {
+	content: "\e04f";
+}
+.flaticon-pinterest10:before {
+	content: "\e050";
+}
+.flaticon-pinterest11:before {
+	content: "\e051";
+}
+.flaticon-planet5:before {
+	content: "\e052";
+}
+.flaticon-play44:before {
+	content: "\e053";
+}
+.flaticon-profile8:before {
+	content: "\e054";
+}
+.flaticon-right59:before {
+	content: "\e055";
+}
+.flaticon-right60:before {
+	content: "\e056";
+}
+.flaticon-right61:before {
+	content: "\e057";
+}
+.flaticon-robot3:before {
+	content: "\e058";
+}
+.flaticon-screen11:before {
+	content: "\e059";
+}
+.flaticon-screen15:before {
+	content: "\e05a";
+}
+.flaticon-skype8:before {
+	content: "\e05b";
+}
+.flaticon-small141:before {
+	content: "\e05c";
+}
+.flaticon-smart:before {
+	content: "\e05d";
+}
+.flaticon-smartphone:before {
+	content: "\e05e";
+}
+.flaticon-smartphone5:before {
+	content: "\e05f";
+}
+.flaticon-stand2:before {
+	content: "\e060";
+}
+.flaticon-stats1:before {
+	content: "\e061";
+}
+.flaticon-storage13:before {
+	content: "\e062";
+}
+.flaticon-tablet2:before {
+	content: "\e063";
+}
+.flaticon-target29:before {
+	content: "\e064";
+}
+.flaticon-telephone56:before {
+	content: "\e065";
+}
+.flaticon-telephone8:before {
+	content: "\e066";
+}
+.flaticon-television9:before {
+	content: "\e067";
+}
+.flaticon-three55:before {
+	content: "\e068";
+}
+.flaticon-traffic2:before {
+	content: "\e069";
+}
+.flaticon-trifold4:before {
+	content: "\e06a";
+}
+.flaticon-twitter12:before {
+	content: "\e06b";
+}
+.flaticon-twitter13:before {
+	content: "\e06c";
+}
+.flaticon-twitter14:before {
+	content: "\e06d";
+}
+.flaticon-white63:before {
+	content: "\e06e";
+}
+.flaticon-white65:before {
+	content: "\e06f";
+}
+.flaticon-wide6:before {
+	content: "\e070";
+}
+.flaticon-widescreen:before {
+	content: "\e071";
+}
+.flaticon-wifi33:before {
+	content: "\e072";
+}
+.flaticon-wifi7:before {
+	content: "\e073";
+}
+.flaticon-wordpress7:before {
+	content: "\e074";
+}
+.flaticon-world:before {
+	content: "\e075";
+}
+.flaticon-youtube10:before {
+	content: "\e076";
+}
+.flaticon-youtube12:before {
+	content: "\e077";
+}
