@@ -168,11 +168,13 @@ footer .address {
 
 footer .address_heading {
 	font-size: 24px;
+	text-align: left;
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #1e7f93;
 }
 footer .address_text {
+	text-align: left;
 	font-size: 16px;
 	font-weight: 300;
 	margin-top: 23px;
@@ -183,6 +185,11 @@ footer .soc-links__item {
 	display: inline-block;
 	margin-right: 23px;
 	vertical-align: middle;
+
+}
+footer .soc-links__item a{
+	font-size: 2.3em;
+	color: #acacac;
 }
 
 
@@ -362,7 +369,10 @@ section.feeling .content .caracteristicas h2{
 	max-height: 320px;
 	max-width: 100%;
 }
-
+.services-desc{
+	display: block;
+	margin: 0 auto;
+}
 
 .top-services, .a-services, .b-services{
 	padding-top: 65px;
@@ -377,7 +387,13 @@ section.feeling .content .caracteristicas h2{
 	background: #2F3545;
 }
 
-
+.hpr{
+	float: right;
+}
+.desc-text{
+	font-size:1.3em;
+	width: 100%;
+}
 
 #services{
 	
@@ -480,6 +496,16 @@ section.feeling .content .caracteristicas h2{
 	}
 	.grid .center .item:first-child{
  		margin-left: 30px; /*71px*/
+	}
+	section.feeling .content .caracteristicas{
+		display: inline-block;
+	}
+	section.feeling .content .caracteristicas ul{
+		display: block;
+		float: none;
+	}
+	.mem{
+		margin: 0 auto;
 	}
 	footer .footer-section_color_light .menu_type_footer {
 		width: 100%;
